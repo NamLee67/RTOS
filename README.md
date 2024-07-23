@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/4f5c2a2c-fc1e-450a-996f-3ba4da2278f8)# RTOS Real-time Operating System
+# RTOS Real-time Operating System
 RTOS là hệ điều hành dành riêng cho thiết bị vi điều khiển, đối với STM32 có hỗ trợ hệ điều hành freeRTOS
 1. Thông thường chúng ta sử dụng kĩ thuật polling( chạy liên tục trong while(1), và có thê interrupt để xử lý các task quan trọng). Nhưng đối với các dự án lớn, yêu cầu nhiều task thì sử dụng polling + interrupt sẽ là không hợp lý, sẽ không đáp ứng đúng yêu cầu về thời gian.
 2. Thay vào đó hệ điều hành RTOS sẽ đáp ứng được yêu cầu đó, dáp ứng được trong khoảng thời gian mong muốn
